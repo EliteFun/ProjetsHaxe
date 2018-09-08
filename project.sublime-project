@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"path": "1 - Snake"
+		},
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build current folder",
+			"cmd": ["haxe.exe", "$folder\\build.hxml"]
+		},
+		{
+			"name": "Run current folder (HashLib)",
+			"working_dir": "$folder\\build\\hl",
+			"cmd": ["hl.exe", "$folder\\build\\hl\\build.hl"]
+		}
+		
+		//https://stackoverflow.com/questions/24225343/how-to-compile-and-run-c-in-sublime-text-3
+	]
+}

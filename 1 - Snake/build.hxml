@@ -4,6 +4,9 @@
 -main Main
 # libraries
 -lib heaps
+-lib hlsdl
+
+-D resourcePath="assets"
 
 # output
--js build/js/build.js
+-hl build/hl/build.hl

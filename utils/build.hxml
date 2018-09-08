@@ -1,0 +1,9 @@
+# class paths
+-cp src
+# entry point
+-main Main
+# libraries
+-lib heaps
+
+# output
+-js build/js/build.js

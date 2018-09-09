@@ -1,6 +1,4 @@
 #build outputs
 */build
 
-#sublime files
-#*.sublime-project
-*.sublime-workspace
+#vscode files

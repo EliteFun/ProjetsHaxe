@@ -6,7 +6,5 @@
 -lib heaps
 -lib hlsdl
 
--D resourcePath="assets"
-
 # output
 -hl build/hl/build.hl
